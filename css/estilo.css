@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    min-height: 200px ;
+    background-color: lawngreen;
+}
+
+header h1{
+    font-size: 30pt;
+    font-family: 'Comic Sans MS';
+    color: purple;
+    border: 2px dashed purple;
+    border-radius: 15%;
+    padding: 10px 30px;
+}
+
+header > div{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#hamburger{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.barra{
+    width: 90%;
+    height: 10px;
+    background-color: purple;
+    border-radius: 15%;
+}
+
+header div nav{
+    display: none;
+}
+
+header div input{
+    display: none;
+}
+
+header img{
+    width: 36px;
+    height: 36px;
+}
+
+#pesquisa{
+    height: 50px;
+    width: 50px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
